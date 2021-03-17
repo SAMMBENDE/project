@@ -18,7 +18,7 @@ const products = [
     countInStock: 10,
   },
   {
-    name: "Garri & Eru",
+    name: "Fufu & Eru",
     imageUrl:
       "https://pbs.twimg.com/media/EDO-LMGXUAENc8O?format=jpg&name=small",
     description:

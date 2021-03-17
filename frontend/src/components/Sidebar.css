@@ -1,0 +1,70 @@
+.sidebar {
+    width: 70%;
+    height: 100vh;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(180, 109, 2);
+    z-index: 200;
+    transform: translate(-100%);
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar.show {
+    transform: translate(0);
+}
+
+.sidebar__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.sidebar__links li {
+    display: flex;
+    align-items: center;
+}
+.sidebar__links li a {
+    font-size: 2rem;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.sidebar__links li a span{
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.sidebar__cartbadge {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-left: 8px;
+
+
+}
+.sidebar__links li a:hover {
+    background: #000;
+    color: #ffffff;
+}
+
+@media (min-width: 960px) {
+    .sidebar {
+        display: none;
+    }
+}
