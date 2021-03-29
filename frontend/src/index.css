@@ -9,6 +9,11 @@ body {
     background: #150f0f;
 }
 
+/* img {
+    width: 300px;
+    
+} */
+
 img {
     width: 100%;
     object-fit: contain;

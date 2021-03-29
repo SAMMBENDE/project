@@ -39,7 +39,7 @@ const CartScreen = () => {
     <>
       <div className="cartscreen">
         <div className="cartscreen__left">
-          <h2>Shopping Cart</h2>
+          <h2>Selected Item(s)</h2>
 
           {cartItems.length === 0 ? (
             <div>
