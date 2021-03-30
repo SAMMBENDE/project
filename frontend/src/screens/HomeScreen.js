@@ -24,9 +24,10 @@ const HomeScreen = () => {
 
     return (
         <div className="homescreen">
-          <h2 className="homescreen__title">Plats Disponible</h2>
-
+          <h2 className="homescreen__title">Plats Disponibles</h2>
+          
           <div className="homescreen__products">
+
             {loading ? <h2>Loading...</h2> : error ? <h2>{error}</h2> : products.map(product => (
               <Product 
               key={product._id}

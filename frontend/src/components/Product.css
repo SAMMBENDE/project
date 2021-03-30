@@ -1,7 +1,7 @@
 .product {  
     
   width: 300px;
-  padding: 1rem ;
+  padding: 1rem;
   background: #150f0f;
   color: #fff;
   margin: 8px auto;
@@ -58,5 +58,9 @@
 @media (max-width: 1232px) {
     .product {
        width: 320px
+    }
+
+    .info__button {
+        padding: 0.6rem 8rem;
     }
 }
