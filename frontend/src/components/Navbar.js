@@ -14,8 +14,7 @@ const Navbar = ({click}) => {
     };
     
     return (
-        <nav className="navbar">
-            
+        <nav className="navbar">            
             <div className="navbar__logo">
                 <h2>LE BANTOU</h2>
             </div>

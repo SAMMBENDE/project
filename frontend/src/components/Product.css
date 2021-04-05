@@ -12,9 +12,9 @@
   
 }
 .product img {  
-    height:  180px; 
+    height:  185px; 
     width: 100%;  
-    box-shadow: 3px 3px  #fdc500;
+    box-shadow: 3px 3px  #e0ac1c;
 }
 .product__info p {
     margin-bottom: 15px;
@@ -48,7 +48,7 @@
     transition: 0.2 ease-out;
 }
   .info__button:hover {
-    background: #ffc500;
+    background: #e0ac1c;
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #000;
