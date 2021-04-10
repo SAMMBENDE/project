@@ -29,7 +29,7 @@ const CartScreen = () => {
     return cartItems.reduce((qty, item) => Number(item.qty) + qty, 0);
   };
 
-  const getCartSubTotal = () => {
+  const getCartSumTotal = () => {
     return cartItems
       .reduce((price, item) => price + item.price * item.qty, 0)
       .toFixed(2);
@@ -59,8 +59,8 @@ const CartScreen = () => {
 
         <div className="cartscreen__right">
           <div className="cartscreen__info">
-            <p>Subtotal ({getCartCount()}) items</p>
-            <p>€{getCartSubTotal()}</p>
+            <p>Sumtotal ({getCartCount()}) items</p>
+            <p>€{getCartSumTotal()}</p>
           </div>
           <div>
             <button>Proceed To Checkout</button>

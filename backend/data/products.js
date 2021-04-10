@@ -36,29 +36,29 @@ const products = [
     countInStock: 10,
   },
   {
-    name: "Gombo Royale",
+    name: "Poulet au citron",
     imageUrl:
       "https://images.unsplash.com/photo-1596474252356-40a385da8686?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
     description:
-      "La sauce de gombo est l’une des sauces les plus célèbres d’Afrique de l’ouest. Préparé avec les crabes et crevettes, viande, poisson fumé etc Aussi connue sous Soupoukandja au Senegal, Kopé en Cote d’ivoire, Takou en Guinée...& au Cameroun.",
+      "Pilon de poulet au citron. Cette version se prépare à base de pilons de poulet dorés avec de l'huile d'olive, des oignons, du cumin, du curcuma, du fond de volaille, des olives et des rondelles de citron jaune et idéal pour un repas convivial  entre amis",
     price: 15,
     countInStock: 15,
   },
   {
-    name: "Ndolé",
+    name: "Bouillon Royale",
     imageUrl:
       "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     description:
-      "Le ndolé est un plat camerounais composé d'un ragoût de noix, de ndolé et de poisson ou de bœuf. Le plat peut également contenir des crevettes ou des gambas. Il est traditionnellement consommé avec des  plantains, du bobolo, du poisson de la peau de bœuf.",
+      "Quand sapidité et piment se mélangent pour donner cette savoureuse sauce , nous avons l’impression d’être emportés au pays des délices. Les Sawa disent « pèpè soup », cela veut tout simplement dire la soupe pimentée toujours avec un poisson ou de la carpe.",
     price: 20,
     countInStock: 10,
   },
   {
-    name: "Eru",
+    name: "Baked Beans",
     imageUrl:
-      "https://images.unsplash.com/photo-1579670039509-e21e75007e4c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "https://images.unsplash.com/photo-1612548127010-97b48ffa2aef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     description:
-      "Eru est une spécialité de sauce du Cameroun. Il s'agit d'une sorte de purée de légumes composée de feuilles d'eru ou d'okok finement râpées. L'eru est mijoté avec des feuilles d'eau ou des épinards, de l'huile de palme et du poisson fumé, de la peau de  bœuf.",
+      "Les baked beans sont composés de haricots blancs, cuits dans une sauce tomate aromatisée. Traditionnellement, ils sont cuisinés au four mais ils sont souvent mijotés dans une casserole, en dépit du nom. C’est un plat typique du Cameroun. Idéal avec du pain.",
     price: 15,
     countInStock: 5,
   },
@@ -67,7 +67,7 @@ const products = [
     imageUrl:
       "https://images.unsplash.com/photo-1606525575548-2d62ed40291d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     description:
-      "Voici une recette que l’on trouve dans 9.5/10«restaurants » camerounais à Paris en tout cas. Du porc braisé ou grillé. La viande est ainsi trempée pendant environ 8h, dans un grand volume d’eau salée & aromatisée. Acompagnement avec Plantain tapé, Bobolo.",
+      "Porc braisé à la moutarde et aux tomates fraiches. Dégustez Cette savoureuse recette de porc braisé des plus tendres. La viande est si tendre qu’elle se mange avec les doigts, et la sauce déborde des saveurs de l’automne. Idéal avec Aloko Plantain tapé, Bobolo",
     price: 20,
     countInStock: 25,
   },
