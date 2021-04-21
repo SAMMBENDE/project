@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path:'./.env'});
 const express = require('express');
 const connectDB = require('./config/db');
 const productRoutes = require("./routes/productRoutes");
@@ -16,10 +16,10 @@ app.use('/api/products', productRoutes);
 // Serve static assets if in production
 if(process.env.NODE_ENV ==='production') {
      // Set a static folder
-     app.use(express.static('client/build'));
+     app.use(express.static('frontend/build'));
 
      app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+        res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
      });
 }else{
    app.get('/', (req, res) => {
