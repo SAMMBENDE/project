@@ -12,19 +12,18 @@ app.use(express.json());
 
 app.use('/api/products', productRoutes);
 
-// Serve static assets if in production 
-// this if  else is important; It enables heroku server to serve my react app
+// Serve static assets if in production
 if(process.env.NODE_ENV ==='production') {
 
      // Set a static folder This is a middleware
-     app.use(express.static(path.join(__dirname, 'frontend/build')));
+     app.use(express.static('frontend/build'));
 
      app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, 'frontend', 'build', 'index.html'));
-     })
-} else {
+        res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
+     });
+}else{
    app.get('/', (req, res) => {
-      res.send('Api running');
+      res.send('Api running')
    });
 }
 
