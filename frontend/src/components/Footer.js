@@ -10,7 +10,7 @@ const Footer = () => {
           
 				<h3><span>Le Bantou</span></h3>		
                
-				<p className="footer-company-name">© 2021 Le Bantou Restaurant Ltd.</p>
+				<p className="footer-company-name">© 2021 Sam Mbende || Le Bantou Restaurant Ltd.</p>
                 
 			</div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
 				</div>
 				<div>
 					<i className="fa fa-envelope"></i>
-					<p><a href="mailto:mbende2000@yahoo.com">support@sam_mbende_lebantou.fr</a></p>
+					<p><a href="mailto:mbende2000@yahoo.com">support@lebantou.fr</a></p>
 				</div>
 			</div>
 			<div className="footer-right">
