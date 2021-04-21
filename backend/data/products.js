@@ -31,12 +31,12 @@ const products = [
     imageUrl:
       "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80",
     description:
-      "Classique de la cuisine de bistrot, le steak au poivre est LA recette à connaître pour un repas de dernière minute ! Aimé par tous (surtout lorsqu'il est servi avec des frites), il sait nous réjouir avec ses saveurs de Cognac et son poivre mignonette.",
+      "Viande au poivre est aux cubes de pommes grillés est la recette à connaître pour un repas de dernière minute ! Aimé par tous (surtout lorsqu'il est servi avec des frites), il sait nous réjouir avec ses saveurs de Cognac et son poivre mignonette.",
     price: 15,
     countInStock: 10,
   },
   {
-    name: "Poulet au citron",
+    name: "Pilons au citron",
     imageUrl:
       "https://images.unsplash.com/photo-1596474252356-40a385da8686?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
     description:
@@ -54,20 +54,20 @@ const products = [
     countInStock: 10,
   },
   {
-    name: "Baked Beans",
+    name: "Chilli Express",
     imageUrl:
       "https://images.unsplash.com/photo-1612548127010-97b48ffa2aef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     description:
-      "Les baked beans sont composés de haricots blancs, cuits dans une sauce tomate aromatisée. Traditionnellement, ils sont cuisinés au four mais ils sont souvent mijotés dans une casserole, en dépit du nom. C’est un plat typique du Cameroun. Idéal avec du pain.",
+      "Le Chilli con carné au boeuf haricots rouges et tomates cuits dans une sauce aromatisée. Traditionnellement, ils sont cuisinés au four mais ils sont souvent mijotés dans une casserole, en dépit du nom. C’est un plat typique du Cameroun. Idéal avec du pain.",
     price: 15,
     countInStock: 5,
   },
   {
-    name: "Porc Braisé",
+    name: "Porc à la moutarde",
     imageUrl:
       "https://images.unsplash.com/photo-1606525575548-2d62ed40291d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     description:
-      "Porc braisé à la moutarde et aux tomates fraiches. Dégustez Cette savoureuse recette de porc braisé des plus tendres. La viande est si tendre qu’elle se mange avec les doigts, et la sauce déborde des saveurs de l’automne. Idéal avec Aloko Plantain tapé, Bobolo",
+      "Porc braisé à la moutarde et aux tomates fraiches. Dégustez Cette savoureuse recette de porc braisé des plus tendres. La viande est si tendre qu’elle se mange avec les doigts, et la sauce déborde des saveurs de l’automne. Idéal avec Aloko, Plantain, Bobolo",
     price: 20,
     countInStock: 25,
   },
