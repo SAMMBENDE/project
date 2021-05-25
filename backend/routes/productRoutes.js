@@ -6,15 +6,15 @@ const {
   getProductById,
 } = require("../controller/productControllers");
 
-// GET all products from db
-// GET /api/products
-// Public
+// desc: GET all products from db
+// route: GET /api/products
+// access: Public
 
 router.get("/", getAllProducts);
 
-// GET a product by id from db
-// GET /api/products/:id
-// Public
+// desc: GET a product by id from db
+// route: GET /api/products/:id
+// acccess: Public
 
 router.get("/:id", getProductById);
 

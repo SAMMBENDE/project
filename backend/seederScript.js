@@ -1,3 +1,4 @@
+// THIS WILL IMPORT DATA INTO MY DATABASE
 require('dotenv').config();
 
 const productsData = require('./data/products');
@@ -6,6 +7,7 @@ const Product = require('./models/Product');
 
 connectDB();
 
+//DELETE ALL FROM DATABASE AND INSERT ITEMS
 const importData = async () => {
     try {
         await Product.deleteMany({});

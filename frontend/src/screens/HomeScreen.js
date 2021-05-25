@@ -1,6 +1,6 @@
 import "./HomeScreen.css";
-import {useEffect} from 'react';
-import { useDispatch, useSelector } from "react-redux";
+import {useEffect} from 'react';  // FINDING MY PRODUCTS FROM STORE 
+import { useDispatch, useSelector } from "react-redux"; // TWO HOOKS For working with mapStateToProps & mapDispatchToProps
 
 
 // Components
@@ -14,7 +14,12 @@ const HomeScreen = () => {
 
   const dispatch = useDispatch();
 
+  // GETTING PRODUCTS DATA
   const getProducts = useSelector((state) => state.getProducts);
+
+  // DESTRUCTURING TO GET PRODUCTS [] 
+  // but first check for loading and error B4 mapping through my products
+  
   const { products, loading, error } = getProducts;
 
 
@@ -26,8 +31,8 @@ const HomeScreen = () => {
         <div className="homescreen">
           <h2 className="homescreen__title">Plats Disponibles</h2>
           
-          <div className="homescreen__products">
-
+          <div className="homescreen__products"> 
+              
             {loading ? <h2>Loading...</h2> : error ? <h2>{error}</h2> : products.map(product => (
               <Product 
               key={product._id}
@@ -44,3 +49,8 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
+
+// the exact amount of products in db appears on screen afetr mapping
+// i pass the correct values in component Product.js so al values are same on screen aswell
+// then each individual item loads seperately with corresponding values

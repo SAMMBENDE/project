@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// CONNECTING THE APPLICATION TO THE STORE
+
 import { Provider } from 'react-redux';
 import store from './redux/store';
 

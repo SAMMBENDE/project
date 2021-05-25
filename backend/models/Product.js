@@ -1,3 +1,5 @@
+// TELLING MONGOOSE HOW MY PRODUCTS WILL LOOK LIKE
+
 const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema({

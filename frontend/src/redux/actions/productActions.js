@@ -3,6 +3,7 @@
 import  * as actionTypes from '../constants/productConstants';
 import axios from 'axios';
 
+// FIRST ACTION TO CALL WHEN YOU GET TO THE HOMEPAGE
 export const getProducts = () => async (dispatch) => {
     try {
       dispatch({ type: actionTypes.GET_PRODUCTS_REQUEST });
@@ -12,7 +13,7 @@ export const getProducts = () => async (dispatch) => {
       dispatch({
         type: actionTypes.GET_PRODUCTS_SUCCESS,
         payload: data,
-      });
+      });      
     } catch (error) {
       dispatch({
         type: actionTypes.GET_PRODUCTS_FAILURE,
@@ -24,6 +25,10 @@ export const getProducts = () => async (dispatch) => {
     }
 };
 
+// GETTING PRODUCT DETAILS. 
+// HERE I AM MAKING A REQUEST TO A SPECIFIC ENDPOINT
+// THAT IS WHY I USE BACK TICS
+// THE PRODUCT BY ID AS NOTED IN THE BACKEND ROUTE 
 export const getProductDetails = (id) => async (dispatch) => {
     try {
       dispatch({ type: actionTypes.GET_PRODUCT_DETAILS_REQUEST });
@@ -45,6 +50,9 @@ export const getProductDetails = (id) => async (dispatch) => {
     }
 };
 
+// WHEN SWITCHING BACK TO THE SCREEN, 
+// I WANT TO FIRST REMOVE ALL OF THE STATE
+// NOT AN ASYNC FUNCTION
 export const removeProductDetails = () => (dispatch) => {
     dispatch({ 
         type: actionTypes.GET_PRODUCT_DETAILS_RESET 

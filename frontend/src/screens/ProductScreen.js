@@ -2,9 +2,9 @@ import "./ProductScreen.css";
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-// Actions
-import { getProductDetails } from "../redux/actions/productActions";
-import { addToCart } from "../redux/actions/cartActions";
+// Actions    View  &  Add to cart
+import { getProductDetails } from "../redux/actions/productActions"; 
+import { addToCart } from "../redux/actions/cartActions";   
 
 const ProductScreen = ({ match, history }) => {
   const [qty, setQty] = useState(1);

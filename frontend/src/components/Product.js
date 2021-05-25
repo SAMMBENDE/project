@@ -1,6 +1,8 @@
 import './Product.css';
 import {Link} from 'react-router-dom';
 
+// EXTRACTING THE FOLLOWING 5 
+// INSTEAD OF RENDERING THE HARDCODED VALUES I DESTRUCTURE
 const Product = ({imageUrl, name, price, description, productid}) => {
     return (
         <div className="product">
